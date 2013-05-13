@@ -1,6 +1,3 @@
-# 2008-05-07 found on BSD Guides
-# Display $USER and screen titles in a neat way :P
-#caption always "%{=b dy}{ %{= dm}${USER} %{=b dy}}%={ %?%{= dc}%-Lw%?%{+b dy}(%{-b r}%n:%t%{+b dy})%?(%u)%?%{-dc}%?%{= dc}%+Lw%? %{=b dy}}"
 caption always "%{Wb} %H %{Bk}| %{Ck}%-w%50>%{Cb} %n %t %{-}%+w%<%{- Wk}%{Bk} | %=%{Wb} %C "
 scrollback 1500
 startup_message off
